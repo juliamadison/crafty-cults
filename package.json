@@ -1,0 +1,16 @@
+{
+  "name": "crafty-cults",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && node index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "bot": "cd bot && node index.js",
+    "deploy-commands": "cd bot && node deploy-commands.js",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install && cd ../bot && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}

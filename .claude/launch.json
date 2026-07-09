@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "client",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "client"],
+      "port": 3000
+    },
+    {
+      "name": "raccosplanner",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "/Users/juliadesimone/raccosplanner/client"],
+      "port": 3000
+    }
+  ]
+}
