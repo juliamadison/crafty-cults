@@ -1,31 +1,11 @@
 import React from 'react';
 import useScrollReveal from '../hooks/useScrollReveal';
 
-const conventions = [
-  {
-    name: 'convention name',
-    date: 'date',
-    location: 'location',
-  },
-  {
-    name: 'convention name',
-    date: 'date',
-    location: 'location',
-  },
-  {
-    name: 'convention name',
-    date: 'date',
-    location: 'location',
-  },
-];
-
 function Support() {
   const kickstarterRef = useScrollReveal();
-  const conventionsRef = useScrollReveal();
 
   return (
     <section className="page-section">
-      {/* Kickstarter Section */}
       <div ref={kickstarterRef} className="support-section reveal-scale">
         <div className="kickstarter-banner">
           <h2>Kickstarter Campaign</h2>
@@ -33,7 +13,6 @@ function Support() {
         </div>
       </div>
 
-      {/* Conventions Section */}
       <div className="support-section">
         <h2 style={{
           fontFamily: 'var(--font-display)',
@@ -44,15 +23,12 @@ function Support() {
         }}>
           Find Us at Conventions
         </h2>
-        <p className="section-subtitle" style={{ marginBottom: '2rem' }}>
-          Announcements coming soon!
-        </p>
-
-
+        <p className="section-subtitle">Announcements coming soon!</p>
       </div>
 
       <div className="divider" style={{ margin: '2rem auto' }}>
         <span className="divider-line"></span>
+        <span className="divider-symbol">&#9681;</span>
         <span className="divider-line"></span>
       </div>
 
@@ -66,34 +42,20 @@ function Support() {
           Follow Us
         </p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', alignItems: 'center' }}>
-          <a
-            href="https://www.instagram.com/craftycults"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}
-          >
+          <a href="https://www.instagram.com/craftycults" target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}>
             Instagram: @craftycults
           </a>
-          <a
-            href="https://www.tiktok.com/@craftycults"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}
-          >
+          <a href="https://www.tiktok.com/@craftycults" target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}>
             TikTok: @craftycults
           </a>
-          <a
-            href="https://x.com/craftycults"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}
-          >
+          <a href="https://x.com/craftycults" target="_blank" rel="noopener noreferrer"
+            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}>
             X: @craftycults
           </a>
-          <a
-            href="mailto:craftycultsbusiness@gmail.com"
-            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}
-          >
+          <a href="mailto:craftycultsbusiness@gmail.com"
+            style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)', fontSize: '1rem', textDecoration: 'none' }}>
             Email: craftycultsbusiness@gmail.com
           </a>
         </div>

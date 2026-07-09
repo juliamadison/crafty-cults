@@ -11,7 +11,7 @@ function About() {
 
       <div ref={contentRef} className="about-content reveal">
         <p>
-          Crafty Cults is the brainchild of Matthew Berlin- a Long Island University graduate in Game Design and Development and passionate fan of board games. They spent their senior year working on their thesis project, creating the first version of Crafty Cults. With a team of talented artists, designers, and playtesters, he debuted the game at LIU’s Student Game Showcase (INSERT YEAR HERE) and won the award for best visuals. Matt and the team continue to work on Crafty Cults, shaping it into the game it is today.
+          Crafty Cults is the brainchild of Matthew Berlin- a Long Island University graduate in Game Design and Development and passionate fan of board games. They spent their senior year working on their thesis project, creating the first version of Crafty Cults. With a team of talented artists, designers, and playtesters, he debuted the game at LIU’s Student Game Showcase and won the award for best visuals. Matt and the team continue to work on Crafty Cults, shaping it into the game it is today.
         <p>
         </p>
           In this casual strategy game, players can enjoy roleplaying as deceptive cult leaders with the goal of controlling the world to become the biggest cult before anyone else. By hijacking preestablished cults and recruiting their members, players can grow their cult with powerful spells, rituals, and attacks. 

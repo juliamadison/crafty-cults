@@ -95,7 +95,7 @@ function Home() {
               textAlign: 'center',
               marginBottom: '0.5rem'
             }}>
-              INSERTADJECTIVEHERE Gameplay
+              Strategic Gameplay
             </h3>
             <p style={{
               fontFamily: 'var(--font-serif)',
@@ -112,7 +112,7 @@ function Home() {
               textAlign: 'center',
               marginBottom: '0.5rem'
             }}>
-             INSERTADJECTIVE Lore
+              Deep Lore
             </h3>
             <p style={{
               fontFamily: 'var(--font-serif)',

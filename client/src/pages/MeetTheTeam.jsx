@@ -26,18 +26,14 @@ const teamMembers = [
     role: 'Art Director',
     bio: `"It was an honor to work on Crafty Cults, alongside a team of driven creatives. I've never done something like this before but I'm glad these were the people I was able to experience it with! I can't wait to see what else we can accomplish together! :)!"`,
     image: tatiImg,
-    socials: [
-      {  },
-    ],
+    socials: [],
   },
   {
     name: 'Isabelle Samudio',
     role: 'Artist',
     bio: `"This was such a fun project to be a part of! It gave me the opportunity to relearn how to do digital art and just to have fun with art again. Thank you for having me!!"`,
     image: isaImg,
-    socials: [
-      { },
-    ],
+    socials: [],
   },
   {
     name: 'Naomi Lynn',
@@ -54,9 +50,7 @@ const teamMembers = [
     role: 'Card UI Artist and 3D Artist',
     bio: `Amanda created the card UI, the background of the cards, the front of the cards, the back of the cards, and 3D modeled the candle for the turn tracker.`,
     image: amandaImg,
-    socials: [
-      {  },
-    ],
+    socials: [],
   },
   {
     name: 'Chloe Lansing',
@@ -82,9 +76,7 @@ const teamMembers = [
     role: 'Game Piece Producer, Website Developer, Emotional Support',
     bio: `"i made this website👍🏻"`,
     image: juliaImg,
-    socials: [
-      {  },
-    ],
+    socials: [],
   },
 ];
 
