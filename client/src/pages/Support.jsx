@@ -23,7 +23,16 @@ function Support() {
         }}>
           Find Us at Conventions
         </h2>
-        <p className="section-subtitle">Announcements coming soon!</p>
+        <div className="card-grid" style={{ marginTop: '1.5rem' }}>
+          <div className="card" style={{ textAlign: 'center' }}>
+            <h3 style={{ fontFamily: 'var(--font-display)', color: 'var(--color-gold)', marginBottom: '0.5rem' }}>
+              LI Retro Gaming Expo
+            </h3>
+            <p style={{ fontFamily: 'var(--font-serif)', color: 'var(--color-text-muted)' }}>
+              August 8th – 9th
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="divider" style={{ margin: '2rem auto' }}>
